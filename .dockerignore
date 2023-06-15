@@ -1,0 +1,6 @@
+/venv/
+/crypto_store/
+/session.txt
+/.env
+/.idea
+/config.toml
