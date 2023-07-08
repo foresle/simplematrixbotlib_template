@@ -7,6 +7,6 @@ services:
       - '.:/code'
       - './crypto_store/:/code/crypto_store/'
       - './session.txt:/code/session.txt'
-    command: 'python src/main.py'
+    command: 'python -m src.main'
     env_file: '.env'
 

@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from environs import Env
 import simplematrixbotlib as botlib
-from handlers import setup
+from .handlers import setup
 
 env = Env()
 env.read_env()
